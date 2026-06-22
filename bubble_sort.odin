@@ -7,7 +7,7 @@ main :: proc() {
 }
 
 bubble_sort :: proc(nums: []int) -> []int {
-    swapping := true
+    swapping : bool = true
     nums_len := len(nums)
 
     for swapping {
